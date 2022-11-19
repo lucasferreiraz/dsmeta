@@ -12,7 +12,6 @@
 </div>
 
 <h1 align="center"><img src="./media/desktop.png"></h1>
-<hr>
 
 ## About 📚
 
@@ -80,10 +79,12 @@ Returns an object containing a paginated list of the top 20 sellers in the datab
             "date": "2022-02-27"
         },
 
-        .
-        .
-        .
-
+        
+        "."
+        "."
+        "."
+        
+        
         {
             "id": 26,
             "sellerName": "Kal-El",
@@ -134,7 +135,7 @@ Returns an object containing a paginated list of the top 20 sellers in the datab
 
 <summary><b>Send Notification:</b> <code>GET localhost/sales/{id}/notification</code></summary>
 
-Send the SMS informing the seller's name, total sales value in the month and the highlight date.
+Send the SMS informing the seller's name, total sales value in the month and the date.
 
 **Method** : `GET`
 
@@ -145,11 +146,10 @@ Send the SMS informing the seller's name, total sales value in the month and the
 **Content example:**
 
 <h1 align="center"><img src="./media/sms.png"></h1>
-<hr>
 
 </details>
 
----
+
 <p align="center" style="font-weight:bolder">
     Developed with 💛 by <a href="https://github.com/lucasferreiraz">Lucas Ferreira</a>
 </p>
