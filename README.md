@@ -17,7 +17,7 @@
 
 The **DSMeta** project was developed during the **11th Edition of DevSuperior's Spring React Week** event. During the course, the basic concepts of the **Spring framework** were covered in the construction of endpoints of a **Rest API** in the **backend** and the **React** base in the composition of the **frontend**, putting everything into practice in the development of this project, **DSMeta**. A fictional service that lists sales with SMS notification.
 
----
+
 
 ## Technologies Used 🚀
 
@@ -32,20 +32,18 @@ The **DSMeta** project was developed during the **11th Edition of DevSuperior's 
 
 Auxiliary dependencies can be found at: [dependencies](https://github.com/lucasferreiraz/dsmeta/network/dependencies).
 
----
 
 ## Layout 🔖
 
 The design of the **DSMeta** project was based on the prototype made in the **Figma** tool, which includes **responsive designs** in other screen formats. The browser file can be accessed below.
 - **[Project Design File](https://www.figma.com/file/EN1zFtk4eY3Jgmpgi9YaMG/DSMeta1?node-id=0%3A1)**
 
----
 
 ## Endpoints 🔗
 
-For this project two endpoints were designed: <br>
+For this project two endpoints were designed (click to expand): <br>
 
-<details open>
+<details>
 
 <summary><b>Show Sellers:</b> <code>GET localhost/sales</code></summary>
 
@@ -131,7 +129,7 @@ Returns an object containing a paginated list of the top 20 sellers in the datab
 ```
 </details>
 
-<details open>
+<details>
 
 <summary><b>Send Notification:</b> <code>GET localhost/sales/{id}/notification</code></summary>
 
@@ -145,10 +143,27 @@ Send the SMS informing the seller's name, total sales value in the month and the
 
 **Content example:**
 
-<h1 align="center"><img src="./media/sms.png"></h1>
+<h1 align="center"><img src="./media/sms.png" width="400"></h1>
 
 </details>
 
+---
+
+## Demonstration 🖥️
+
+**Returns a list of sellers given a range of data.**
+
+![alt](/media/demo1.gif)
+
+**Individual push sms notification for each seller.**
+
+![alt](/media/demo2.gif)
+
+**The sms is sent to the number registered in the Twilio service.**
+
+<img src="./media/sms2.png" width="400">
+
+---
 
 <p align="center" style="font-weight:bolder">
     Developed with 💛 by <a href="https://github.com/lucasferreiraz">Lucas Ferreira</a>
